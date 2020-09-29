@@ -11,8 +11,10 @@ export default function App() {
   return (
     <div className="App">
       <div className="form-wrap">
+        <h6 className="sign">SIGN UP</h6>
+        <h3>Create your account</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
         <form>
-          <h6 className="sign">Sign Up</h6>
           <div className="social">
             <div className="google">
               <GoogleLogin
@@ -37,11 +39,14 @@ export default function App() {
           <div class="line"></div>
           <div className="line1">or</div>
           <div className="line"></div>
-          <h1>Create Your Account</h1>
           <input type="text" placeholder=" First Name" />
           <input type="text" placeholder="Last Name" />
           <input type="email" placeholder="Email" />
           <input type="password" placeholder="Password" />
+          <p>
+            By clicking Sign Up, you agree to our <a href="#">Terms of Use</a>{" "}
+            and our <a href="#">Privacy Policy.</a>
+          </p>
           <input type="button" value="Sign Up" />
         </form>
       </div>

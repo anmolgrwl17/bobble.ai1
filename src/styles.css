@@ -16,13 +16,13 @@ body {
   justify-content: space-between;
 }
 .sign {
-  margin-top: 0px;
+  margin: 0px 0px;
 }
 
 .form-wrap {
   width: 500px;
   background: white;
-  padding: 40px 20px;
+  padding: 20px 20px;
   box-sizing: border-box;
   position: fixed;
   left: 50%;
@@ -38,12 +38,24 @@ body {
 }
 .line1 {
   display: inline-block;
+  padding: 10px;
 }
 h1 {
   text-align: center;
   color: black;
   font-weight: normal;
   margin-bottom: 20px;
+}
+
+h3 {
+  padding-top: 50px;
+  font-weight: 200;
+  font-size: 30px;
+}
+
+p {
+  font-size: 12px;
+  padding: 10px;
 }
 
 input {
